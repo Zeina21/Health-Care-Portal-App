@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">دير Belak</string>
+    <string name="m">Male</string>
+    <string name="f">Female</string>
+    <string name="gender">Gender:</string>
+
+    <string-array name="Vaccines">
+        <item>Select One</item>
+        <item> Pfizer</item>
+        <item>Johnson,Johnson</item>
+        <item>AstraZeneca</item>
+        <item>Moderna</item>
+        <item>Senopharm</item>
+
+    </string-array>
+
+
+    <string-array name="Allergies">
+        <item>Select One</item>
+        <item> Asthma </item>
+        <item> rhinoconjunctivitis</item>
+        <item> eczema </item>
+        <item> Food Hypersensitivity (FHS)</item>
+        <item> Rhinits</item>
+        <item> Urticaria</item>
+        <item> Angioedema </item>
+        <item> Balsam of Peru</item>
+        <item> Buckwheat</item>
+        <item> Drug Allergy</item>
+        <item> Latex Allergy</item>
+        <item> Insect Allergy</item>
+        <item> Mold Allergy</item>
+        <item> Pet Allergy</item>
+        <item> Pollen Allergy</item>
+        <item> Eyes Allergy</item>
+        <item> Throat Allergy</item>
+        <item> Dust Allergy</item>
+    </string-array>
+
+
+    <string-array name="Diseases">
+        <item>Select One</item>
+        <item> Pressure </item>
+        <item> Diabetes</item>
+        <item> kidney </item>
+        <item> heart disease</item>
+        <item> migraine</item>
+        <item> rheumatic</item>
+        <item> cholesterol </item>
+        <item> cancer</item>
+        <item> gastric ulter</item>
+        <item> influenza</item>
+        <item> paralysis</item>
+        <item> cholera</item>
+        <item> plague</item>
+        <item> typhous</item>
+        <item> malaria</item>
+        <item> asthma</item>
+        <item> eczema</item>
+        <item> jaundice</item>
+        <item> autism</item>
+        <item> Salmonella</item>
+        <item> Malaria</item>
+        <item>Others</item>
+
+    </string-array>
+
+
+    <string-array name="BloodT">
+        <item>Select Blood Group</item>
+        <item> A+ </item>
+        <item> A- </item>
+        <item> B+ </item>
+        <item> B- </item>
+        <item> O+ </item>
+        <item> O- </item>
+        <item> AB+ </item>
+        <item> AB- </item>
+
+    </string-array>
+
+
+    <string name="Terms">
+        Your access to, and use of, the دير BELAK is subject to the following terms and conditions.\n Your access to the دير BELAK app is in consideration for your agreement to these Terms and Conditions of Use, whether or not you are a registered user. By accessing, browsing, and using the دير BELAK app, you accept, without limitation or qualification, these Terms and Conditions of Use.\n\n
+The دير BELAK maintains the right to modify these Terms and Conditions of Use and may do so by posting notice of such modifications on this page. \n Any modification is effective immediately upon posting, unless otherwise stated. \n Your continued use of  دير BELAK app following the posting of any modification signifies your acceptance of such modification.\n You should periodically visit this page to review the current Terms and Conditions of Use.
+\n\n
+By accessing the دير BELAK app, you agree that you will not:\n
+ \n•	Use the دير BELAK app to commit a criminal offense or to encourage others to engage in any conduct which would constitute a criminal offense or give rise to civil liability.
+ \n•	Post or transmit any discriminatory, libelous, harassing, defamatory, obscene, pornographic or otherwise unlawful content.
+ \n•	Use the دير BELAK app to impersonate other parties or entities.
+ \n•	Use the دير BELAK app to upload any content that contains a software virus, any computer code, files or programs that may alter, damage or interrupt the functionality of the دير BELAK app or the hardware or software of any other person who accesses the دير BELAK app.
+ \n•	Upload, post, email or otherwise transmit any materials that you do not have a right to transmit under any law or under a contractual relationship.
+ \n•	Alter, damage or delete any content posted on the دير BELAK app.
+ \n•	Disrupt the normal flow of communication in any way.
+ \n•	Claim a relationship with or represent any business, association or other organization with which you are not authorized to claim such a relationship or represent.
+ \n•	Post or transmit any unsolicited advertising, promotional materials or other forms of solicitation.
+ \n•	Post any material that infringes upon or violates the intellectual property rights of another.
+ \n•	Collect or store personal information about others.
+\n\n
+
+Registration Certain portions of the دير BELAK app are limited to registered users and/or allow a user to request support or services online by entering personal information. You agree that any information provided to us in these areas will be complete and accurate, that you will not register under the name of, nor attempt to enter the دير BELAK app under the name of, another person, and that you will not adopt a user name that دير BELAK, in its sole discretion, deems offensive. Termination of Use دير BELAK may, in its sole discretion, terminate or suspend your access to, and use of, this دير BELAK app without notice and for any reason, including the violation of these Terms and Conditions of Use in its sole discretion, believes is unlawful or harmful to others. In the event of termination, you will no longer be authorized to access the دير BELAK app and دير BELAK will use any means possible to enforce this termination. Other دير BELAK app Links, some links on the دير BELAK app led to websites that are not operated by دير BELAK. دير BELAK does not control these websites nor do we review or control their content. DHA provides these links to users for convenience. These links are not an endorsement of products, services or information, and do not imply an association between دير BELAK and the operators of the linked websites. When you select a link to an outside website you are subject to the terms and conditions of the owner/sponsors of that website. Content دير BELAK reserves the right to monitor any content that you provide, but shall not be obligated to do so. Although دير BELAK cannot monitor all postings on theدير BELAK app, we reserve the right (but assume no obligation) to delete, move or edit any postings that violate these terms and conditions.
+\n\n
+You expressly understand and agree that your use of the دير BELAK app, or any material available through this app, is at your own risk. دير BELAK  doesn’t warrant that the دير BELAK app will be uninterrupted, problem-free, free of omissions or error-free, nor do they make any warranty as to the results that may be obtained from the use of the دير BELAK app.
+\n\n
+In no event will دير BELAK be liable for any incidental, indirect, special, punitive, exemplary or consequential damages, arising out of your use of, or inability to use, the دير BELAK app, including without limitation, loss of revenue or anticipated profits, loss of goodwill, loss of business, loss of data, computer failure or malfunction or any other damages.
+
+
+    </string>
+
+    <string name="more_info">
+
+        "The دير BELAK mobile application was created, in March 2022, with an expanded vision to include strategic oversight for the complete health sector in Lebanon.\n\n Our mission is to transform Lebanon into a leading healthcare destination by fostering innovative and integrated care models and by enhancing community engagement.
+\n\nThe دير BELAK is a healthcare portal app that provides patients with their full medical report digitally. Where it enables patients to manage their healthcare journey through a secure dashboard that displays the patient's medical report.\n\n Where it gives patients faster access to providers and care, makes remote patient monitoring possible and easy, and reduces preventable medical errors. The دير BELAK puts you in control .
+After opening the app, the user (patient or doctor) will be asked to either sign in or sign up-in case of registering for the first time. Then they will be able to choose what do next, the options are: accessing the medical report, accessing a child’s medical report, calling an emergency number, donating blood or viewing more information.
+
+	\n\nThe Medical Report:
+\n
+The patient’s medical report includes the following:
+\n
+•	Personal information such as name, age, and sex.
+\n
+•	Documentation of the Pathological State.
+\n
+•	Documentation of any Medications.
+\n
+•	Measurements of the Vital Signs.
+\n
+•	An overview of Medical History.
+\n
+•	History of Allergies and Immunizations.
+\n
+•	Covid-19 report including the vaccination record card.
+\n
+•	Laboratory test results and medical images like X-rays.
+\n\n
+	The Child’s Medical Report:
+\n
+This section is dedicated to patient’s that are below 18 years old. Since minors aren’t fully aware of their medical conditions, it is preferable to allow their parents to access their medical report and add/view the required information. This medical report includes the same fields mentioned above.
+\n\n
+	Emergency Calls:
+\n
+Emergencies can happen at any time, and at this critical time it is hard to search for the necessary numbers. Therefore, this app includes a section that provides the most important 5 emergency numbers in Lebanon, which are: the Red Cross, Covid’s Hotline, Emergency Hospitalization, the Civil Defense, AlEsaaf AlShaabe and Es3af AlResala.
+\n
+	Blood Donation:
+\n
+Donating blood is a community responsibility because blood banks are local institutions serving local hospitals to meet local needs. In addition, blood donation keeps the patient alive by providing a supplementary blood transfusion activity so that they can live a longer life instead of dying from blood loss.  So, in order to shed light on the importance of blood donation, we dedicated a button that moves the user to the Lebanese DSC page.
+\n\n
+	About:
+\n
+Every app should contain an About button, this button includes three sections that are:
+ \nPrivacy Policy, Terms of Use and More Information.
+ \n
+The privacy policy section explains how the app will collect, store, protect, and utilize personal information provided by the users.
+\n
+The terms of use section act as a legally binding contract between the app and the users. It's the agreement that sets the rules and guidelines that users must agree to and follow in order to use and access the app.
+\n
+The more information section provides all the information about the app that the user must be aware of.
+\n
+"
+    </string>
+
+    <string name="Privacy_Policy">
+
+         The دير BELAK understands and respects users privacy and it is committed to protect it. By visiting the دير BELAK portal, users agree to the practices stated in this policy. Please read our Privacy Policy carefully to understand how we use and collect information.
+        \n\
+
+        We are a project by patients for patients. And as patients (and more generally as citizens), we believe we are the sole owners of the data about us. \n Other people can hold data about us if we know about it, if we agree, if we know the purpose and if we can stop that at any time.
+\n\n
+        Everything we do at دير BELAK is aligned to that. For example, دير BELAK (the developers) does not have access to your health data. We don’t process it, share it or change it in any way. All we do is offer to your ways to share all or parts of your data if you see the need for that and a benefit to it. \n Some examples are improving your care or helping research. \nYou are always in control. \n Your explicit consent is always needed
+\n\n
+
+        Your health data is only stored on your smartphone or tablet and in your backups. It is not stored on our phones, computers or servers. During the sharing of your medical data (that you always decide), the data does pass through our servers in an encrypted manner. This ensures your protection and privacy.
+\n\n
+        We do store on our servers a limited set of personal identifiable information that is collected voluntarily, such as when the user: sends personal information such as name, identification card, age, email id and completes the fields in the medical report. This collected information is only accessible by you(patient) and your doctor and it is never shared with any third parties.
+\n\n
+        The دير BELAK mobile application has links to third party websites. دير BELAK has no control over other websites and thus the دير BELAK Privacy Policy does not apply to them. Users are encouraged to read third party privacy policies prior to providing any personal information to third party websites.
+\n\n
+        BELAK دير reserves the right to modify or amend the Privacy Policy at any time and the effective date will be posted at the beginning of the Privacy Policy. It is advisable to check the Privacy Policy on a regular basis for any changes.
+\n\n
+        We hope this is clear to you. We want to respect the trust you put in us. If you have any questions, concerns or suggestions for improvements, please contact us via e-mail at: dir_Belak@outlook.com
+\n\n
+
+    </string>
+
+    <string name="heart">
+
+
+Your heart rate, or pulse, is the number of times your heart beats per minute. Normal heart rate varies from person to person. Knowing yours can be an important heart-health gauge.
+\n\n
+Child:\n\n
+•	Newborns 0 to 1 month old: 70 to 190 beats per minute\n\n
+•	Infants 1 to 11 months old: 80 to 160 beats per minute \n\n
+•	Children 1 to 2 years old: 80 to 130 beats per minute \n\n
+•	Children 3 to 4 years old: 80 to 120 beats per minute \n\n
+•	Children 5 to 6 years old: 75 to 115 beats per minute \n\n
+•	Children 7 to 9 years old: 70 to 110 beats per minute \n\n
+•	Children 10 years and older: 60 to 100 beats per minute \n\n
+\n\n
+Patient:\n\n
+•	18 to 20 years old: 81.6 beats per minute\n\n
+•	21 to 30 years old: 80.2 beats per minute\n\n
+•	31 to 40 years old: 78.5 beats per minute\n\n
+•	41 to 50 years old: 75.3 beats per minute\n\n
+•	51 to 60 years old: 73.9 beats per minute\n\n
+•	61 to 70 years old: 73.0 beats per minute\n\n
+•	71 to 80 years old: 74.2 beats per minute\n\n
+•	80 years and older: 78.1 beats per minute\n\n
+
+
+    </string>
+
+
+    <string name="Post_Infection">
+
+
+        1.	The main route of transmission is respiratory droplets and close contact with infected people\n\n.
+        2.  When you sneeze or cough, you produce droplets of fluid from your nose and mouth\n\n.
+        3.	These droplets can carry infection which can be spread to others by entering their eyes, nose or mouth. This is the way the flu and many other viruses are spread\n\n.
+        4.	Usually, you need to be close to the person (within 6 feet) for the virus to spread this way\n\n.
+        5.	There is also a possibility of aerosol transmission when exposed to high concentration aerosol for a longer perios of time and in a relatively enclosed environment\n\n.
+        6.	The WHO has stated that the risk of spread from someone without symptoms is "very low" and that the chances of fecal transmission are "low"\n\n.
+
+
+    </string>
+
+
+    <string name="Protection">
+
+        1.	Do not travel to the affected areas.\n\n
+        2.	When sneezing or coughing, cover your mouth with a tissue or elbow. Do not ever sneeze or cough in your palms.\n\n
+        3.	Wash your hands frequently and thoroughly with soap and water. \n\n
+        4.	Avoid obviously ill people and places with a high concentration of people.\n\n
+
+
+    </string>
+
+
+    <string name="Pre_infection">
+
+        1.	The main route of transmission is respiratory droplets and close contact with infected people\n\n.
+        2.	When you sneeze or cough, you produce droplets of fluid from your nose and mouth.\n\n
+        3.	These droplets can carry infection which can be spread to others by entering their eyes, nose or mouth.\n This is the way the flu and many other viruses are spread.\n\n
+        4.	Usually, you need to be close to the person (within 6 feet) for the virus to spread this way.\n\n
+        5.	There is also a possibility of aerosol transmission when exposed to high concentration aerosol for a longer perios of time and in a relatively enclosed environment.\n\n
+        6.	The WHO has stated that the risk of spread from someone without symptoms is "very low" and that the chances of fecal transmission are "low".\n\n
+
+    </string>
+
+
+    <string name="pressure">
+
+        Blood pressure is the force of blood pushing against the walls of the arteries as your heart pumps blood.\n It includes two measurements.\n “Systolic” is your blood pressure when your heart beats while pumping blood.\n “Diastolic” is your blood pressure when the heart is at rest between beats. \n\n You usually see blood pressure numbers written with the systolic number above/before the diastolic number.
+    </string>
+
+
+    <string name="rate">
+
+        Respiratory rate is your rate of breathing (inhalation and exhalation) within a certain time (typically 60 seconds).\n The average respiratory rate in a healthy adult is between 12 and 18 breaths per minute.
+    </string>
+
+
+    <string name="rate2">
+        \n\n
+        For Child:\n\n
+        •	Newborn: 30-60 breaths per minute\n\n
+        •	Infant (1 to 12 months): 30-60 breaths per minute\n\n
+        •	Toddler (1-2 years): 24-40 breaths per minute\n\n
+        •	Preschooler (3-5 years): 22-34 breaths per minute\n\n
+        •	School-age child (6-12 years): 18-30 breaths per minute\n\n
+        •	Adolescent (13-17 years): 12-16 breaths per minute\n\n
+
+    </string>
+
+
+</resources>

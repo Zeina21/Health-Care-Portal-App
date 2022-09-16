@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="CovidInfo.Symptoms">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Covid Symptoms"
+        android:textAlignment="center"
+        android:textColor="#355770"
+        android:textSize="40sp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:src="@drawable/symptoms" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:src="@drawable/symptom2" />
+
+
+</LinearLayout>
+
+

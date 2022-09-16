@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/acme</item>
+        <item>@font/alex_brush</item>
+        <item>@font/alike</item>
+        <item>@font/allura</item>
+        <item>@font/amaranth</item>
+        <item>@font/antic</item>
+        <item>@font/average_sans</item>
+        <item>@font/baumans</item>
+        <item>@font/bungee</item>
+    </array>
+</resources>

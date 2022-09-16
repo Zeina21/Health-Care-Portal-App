@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test">
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:text="Sign in to continue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:hint="ID"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_gravity="center"
+        android:text="test"
+        android:onClick="testB"
+        android:id="@+id/TestB"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_gravity="center"
+        android:text="sign in"
+        android:onClick="startSignIn"
+        android:id="@+id/TestC"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+
+        />
+
+
+
+
+
+</LinearLayout>

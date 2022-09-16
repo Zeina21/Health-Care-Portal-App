@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Allergies">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="180dp"
+    android:layout_marginBottom="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Allergies"
+        android:textAlignment="center"
+        android:textColor="#355770"
+        android:textSize="40sp" />
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Type:"
+                android:layout_weight="4"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:text="@string/gender">
+
+            <RadioButton
+                android:id="@+id/rbA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergie"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+
+            <RadioButton
+                android:id="@+id/rbS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Effect"
+                android:textColor="@color/blue"
+                android:layout_marginRight="20dp"
+                android:textSize="18sp" />
+
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text=" If Allergie:"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+        </TableRow>
+
+<TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="  Name:"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:spinnerMode="dialog"
+         />
+</TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:text="  Others:" />
+
+            <EditText
+                android:id="@+id/other2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"/>
+
+        </TableRow>
+
+        <TableRow>
+          <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif"
+        android:text=" If Side Effect:"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+        </TableRow>
+
+<TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="  Name:"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/SideName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+
+
+
+</TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:text="  Date:" />
+
+            <EditText
+                android:id="@+id/ADate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"/>
+
+        </TableRow>
+
+
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/teal_700"
+        android:onClick="SaveAllergies"
+        android:id="@+id/SaveAl"
+        android:text="Save" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="ViewA"
+        android:id="@+id/AddO"
+        android:text="View" />
+
+    </TableRow>
+
+    </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+

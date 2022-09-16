@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seniorproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SeniorProject"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ChildPage"
+            android:exported="false" />
+        <activity
+            android:name=".MeausView2"
+            android:exported="false" />
+        <activity
+            android:name="Verification.childVerification"
+            android:exported="false" />
+        <activity
+            android:name=".SearchChild"
+            android:exported="false" />
+        <activity
+            android:name=".OthersRecord"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.MeasurementView"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.Respiratory"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.Pressure"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.Heart"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleW"
+            android:exported="false" />
+        <activity
+            android:name="CovidInfo.Protection"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.RespiratoryView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleRR"
+            android:exported="false" />
+        <activity
+            android:name="CovidInfo.PostInfection"
+            android:exported="false" />
+        <activity
+            android:name="CovidInfo.PreInfection"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.HistoryView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleMH"
+            android:exported="false" />
+        <activity
+            android:name=".AllergieView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleA"
+            android:exported="false" />
+        <activity
+            android:name=".AddChilds"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleH"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecyclePB"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.BloodView"
+            android:exported="false" />
+        <activity
+            android:name="Verification.DoctorVerification"
+            android:exported="false" />
+        <activity
+            android:name=".Patient"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalHistory"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.GeneralQues"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.MedicationView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleMed"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.PathView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.RecycleC"
+            android:exported="false" />
+        <activity
+            android:name="CovidInfo.CovidInfo"
+            android:exported="false" />
+        <activity
+            android:name="SignIn.PSignIn"
+            android:exported="false" />
+        <activity
+            android:name="SignUp.PSignUp"
+            android:exported="false" />
+        <activity
+            android:name="Verification.VerificationCode"
+            android:exported="false" />
+        <activity
+            android:name=".SearchPatient"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalRecord"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.Path2"
+            android:exported="false" />
+        <activity
+            android:name="ViewLayouts.ImmunizationView"
+            android:exported="false" />
+        <activity
+            android:name="RecycleView.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.BloodPressure"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.HeartRate"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.RespiratoryRate"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.BMI"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.height"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.weight"
+            android:exported="false" />
+        <activity
+            android:name=".buttomsheetAbout"
+            android:exported="false" />
+        <activity
+            android:name="MoreInfo.Terms"
+            android:exported="false" />
+        <activity
+            android:name="MoreInfo.PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name="MoreInfo.MoreInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Centers"
+            android:exported="false" />
+        <activity
+            android:name="CovidInfo.Symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".Covid19"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".Covid"
+            android:exported="false" />
+        <activity
+            android:name=".Laboratary"
+            android:exported="false" />
+        <activity
+            android:name=".Allergies"
+            android:exported="false" />
+        <activity
+            android:name="VitalSignsPage.VitalSigns"
+            android:exported="false" />
+        <activity
+            android:name=".Immunization"
+            android:exported="false" />
+        <activity
+            android:name=".PathalogicalState"
+            android:exported="false" />
+        <activity
+            android:name=".Medicament"
+            android:exported="false" />
+        <activity
+            android:name=".ChildRec"
+            android:exported="false" />
+        <activity
+            android:name=".SecondPage"
+            android:exported="false" />
+        <activity
+            android:name=".DocPage"
+            android:exported="false" />
+        <activity
+            android:name="SignUp.DocSignUp"
+            android:exported="false" />
+        <activity
+            android:name="SignIn.DocSignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

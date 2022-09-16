@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+
+    tools:context="VitalSignsPage.RespiratoryRate">
+
+
+    <ImageButton
+        android:id="@+id/Symptoms"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:background="#00000000"
+        android:onClick="RespInfo"
+        app:srcCompat="@drawable/arrow1" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/amaranth"
+        android:layout_marginTop="150dp"
+        android:text="  Respiratory Rate"
+        android:textAlignment="center"
+        android:textColor="#355770"
+        android:textSize="40sp" />
+
+    <TableRow
+        >
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="Date:"
+            android:textColor="#355770"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/Rdate"
+            android:layout_width="240dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="25dp"
+        >
+
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="Time:"
+            android:textColor="#355770"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/Rtime"
+            android:layout_width="240dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="25dp"
+        >
+
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="45dp"
+            android:layout_weight="2"
+            android:fontFamily="serif"
+            android:text="breaths/min:"
+            android:textColor="#355770"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/Rbreath"
+            android:layout_width="240dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/teal_700"
+            android:onClick="SaveRR"
+            android:id="@+id/SaveIm"
+            android:text="Save"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/teal_700"
+            android:onClick="ViewRR"
+            android:id="@+id/ViewIm"
+            android:text="View"
+
+            />
+
+    </LinearLayout>
+
+
+</TableLayout>

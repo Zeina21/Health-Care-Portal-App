@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/card_view"
+    tools:context="VitalSignsPage.VitalSigns"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Vital Signs"
+        android:textAlignment="center"
+        android:textColor="#355770"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp" />
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+
+        <ImageView
+            android:id="@+id/itemC"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:src="@drawable/bmi"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/itemD"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toRightOf="@id/b2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            android:background="#00000000"
+            android:onClick="click"
+            android:text="Meausurement"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/itemC"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4">
+
+        <ImageView
+            android:id="@+id/itemG"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:src="@drawable/pressure"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/itemH"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toRightOf="@id/b4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="200dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="16dp"
+            android:background="#00000000"
+            android:onClick="clickBP"
+            android:text="blood pressure"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/itemG"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout5">
+
+        <ImageView
+            android:id="@+id/itemI"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:src="@drawable/rate1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/itemJ"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toRightOf="@id/b5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="200dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="16dp"
+            android:background="#00000000"
+            android:onClick="clickHR"
+            android:text="Heart Rate"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/itemI"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout6">
+
+        <ImageView
+            android:id="@+id/itemK"
+            android:layout_width="124dp"
+            android:layout_height="124dp"
+            android:src="@drawable/respiratory"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/itemL"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/arrow"
+            app:layout_constraintLeft_toRightOf="@id/b6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="200dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="16dp"
+            android:background="#00000000"
+            android:onClick="clickRR"
+            android:text="Respiratory rate"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/itemK"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/itemM"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:src="@drawable/report"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/itemN"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/arrow"
+                    app:layout_constraintLeft_toRightOf="@id/b7"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="200dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#00000000"
+                    android:onClick="clickQA"
+                    android:text="General Health Questionnaire"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toRightOf="@id/itemM"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.cardview.widget.CardView>
+
+

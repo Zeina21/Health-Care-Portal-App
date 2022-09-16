@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backb"
+    tools:context=".Start">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/slogan"
+        android:layout_marginTop="190dp"
+        android:text="Trust or Care! "
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageButton
+            android:id="@+id/Doctor"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:onClick="PatientLL"
+            app:srcCompat="@drawable/p" />
+
+
+        <ImageButton
+            android:id="@+id/Emergency"
+            android:layout_width="156dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="DoctorLL"
+            android:background="@color/white"
+            app:srcCompat="@drawable/doc" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLP"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rounded_corner"
+            android:onClick="PSignIn"
+            android:text="Sign IN" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:onClick="PSignUp"
+            android:text=" Sign Up"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="30dp"
+        android:onClick="DSignIn"
+        android:text="Sign IN" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:onClick="DSignUp"
+        android:text=" Sign Up"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+</LinearLayout>

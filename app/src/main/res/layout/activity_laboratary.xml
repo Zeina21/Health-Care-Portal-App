@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Laboratary">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/amaranth"
+        android:layout_marginTop="180dp"
+        android:text="   Laboratory Reports"
+        android:textAlignment="center"
+        android:textColor="#355770"
+        android:textSize="36sp" />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:layout_marginBottom="30dp">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Test Name:     "
+                android:textSize="17sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/Tname"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="17sp"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="30dp">
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Date:"
+                android:textSize="17sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/LabDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="17sp"
+
+                />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Kindly, insert your reports on its category: "
+        android:textColor="#355770"
+        android:textSize="18sp" />
+
+
+    <ImageButton
+        android:id="@+id/chooseFile"
+        android:layout_width="124dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@color/blue"
+        android:src="@drawable/downarrow"
+        android:text="Add Your PDF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:id="@+id/path_tv"
+        android:layout_gravity="center"
+        android:text=" File Path"
+        android:textColor="#355770"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ViewFile"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@color/blue"
+        android:text="View" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
